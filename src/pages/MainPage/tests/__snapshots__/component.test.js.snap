@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage renders correct snapshot 1`] = `
+<Fragment>
+  <Navbar
+    title="SuperMiles"
+  />
+  <styled.div>
+    <Header
+      as="h1"
+    >
+      Balance: 
+      20000
+    </Header>
+    <styled.div>
+      <div>
+        <Image
+          as="img"
+          rounded={true}
+          size="medium"
+          src="air_buds_blue.jpg"
+          ui={true}
+        />
+        <FormRadio
+          as={[Function]}
+          checked={false}
+          control={[Function]}
+          label="Blue - 40000 points"
+          onChange={[Function]}
+          value="blue"
+        />
+      </div>
+      <div>
+        <Image
+          as="img"
+          rounded={true}
+          size="medium"
+          src="air_buds_black.jpg"
+          ui={true}
+        />
+        <FormRadio
+          as={[Function]}
+          checked={false}
+          control={[Function]}
+          label="Black - 30000 points"
+          onChange={[Function]}
+          value="black"
+        />
+      </div>
+    </styled.div>
+    <Divider
+      horizontal={true}
+    />
+    <ButtonGroup>
+      <Button
+        as="button"
+        id="cancel"
+        onClick={[Function]}
+      >
+        Cancel
+      </Button>
+      <ButtonOr />
+      <Button
+        as="button"
+        disabled={true}
+        id="purchase"
+        onClick={[Function]}
+        positive={true}
+      >
+        Purchase
+      </Button>
+    </ButtonGroup>
+  </styled.div>
+  <Modal
+    basic={true}
+    centered={true}
+    closeOnDimmerClick={true}
+    closeOnDocumentClick={false}
+    dimmer={true}
+    eventPool="Modal"
+    size="small"
+  >
+    <Header
+      content="Confirm Order"
+      icon="shopping cart"
+    />
+    <ModalContent>
+      <p>
+        Would you like to confirm your order for 
+         points?
+      </p>
+    </ModalContent>
+    <ModalActions>
+      <Button
+        as="button"
+        basic={true}
+        color="red"
+        id="close"
+        inverted={true}
+        onClick={[Function]}
+      >
+        <Icon
+          as="i"
+          name="remove"
+        />
+         No
+      </Button>
+      <Button
+        as="button"
+        color="green"
+        id="confirm"
+        inverted={true}
+        onClick={[Function]}
+      >
+        <Icon
+          as="i"
+          name="checkmark"
+        />
+         Yes
+      </Button>
+    </ModalActions>
+  </Modal>
+</Fragment>
+`;

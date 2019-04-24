@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators creates a authenticateUser action 1`] = `[Function]`;
+
+exports[`action creators creates a loginFailure action 1`] = `
+Object {
+  "type": "LOGIN_FAILURE",
+}
+`;
+
+exports[`action creators creates a loginSuccess action 1`] = `
+Object {
+  "type": "LOGIN_SUCCESS",
+}
+`;
+
+exports[`action creators creates a logout action 1`] = `
+Object {
+  "type": "LOGOUT",
+}
+`;

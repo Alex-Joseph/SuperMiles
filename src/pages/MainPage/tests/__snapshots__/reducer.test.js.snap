@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer initial state has an initial state 1`] = `
+Immutable.Map {
+  "balance": 50000,
+  "transaction": null,
+}
+`;
+
+exports[`reducer state after reducer changes state after closeErrorBanner is called 1`] = `
+Immutable.Map {
+  "bannerVisible": true,
+}
+`;
+
+exports[`reducer state after reducer changes state after updateBalance is called 1`] = `
+Immutable.Map {
+  "balance": 10000,
+  "transaction": Object {
+    "test": "test",
+  },
+}
+`;

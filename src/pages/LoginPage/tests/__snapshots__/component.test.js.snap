@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage renders correct snapshot 1`] = `
+<Fragment>
+  <Navbar
+    title="SuperMiles"
+  />
+  <styled.div>
+    <Form
+      as="form"
+      error={false}
+      onSubmit={[Function]}
+    >
+      <FormInput
+        as={[Function]}
+        autoComplete="username"
+        control={[Function]}
+        label="Username"
+        maxLength={50}
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <FormInput
+        as={[Function]}
+        autoComplete="current-password"
+        control={[Function]}
+        label="Password"
+        maxLength={30}
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <Message
+        content="please check your username and password"
+        error={true}
+        header="Login Failed"
+      />
+      <Button
+        as="button"
+        type="submit"
+      >
+        Submit
+      </Button>
+    </Form>
+  </styled.div>
+</Fragment>
+`;

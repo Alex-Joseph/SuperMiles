@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReceiptPage renders correct snapshot 1`] = `
+<Fragment>
+  <Navbar
+    title="SuperMiles"
+  />
+  <styled.div>
+    <Header
+      as="h1"
+    >
+      New Balance: 
+      10000
+    </Header>
+    <Image
+      as="img"
+      rounded={true}
+      size="medium"
+      src="air_buds_black.jpg"
+      ui={true}
+    />
+    <Button
+      as="button"
+      onClick={[Function]}
+    >
+      Logout
+    </Button>
+  </styled.div>
+</Fragment>
+`;

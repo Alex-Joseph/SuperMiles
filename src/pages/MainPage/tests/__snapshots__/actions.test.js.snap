@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators creates a insufficientBalance action 1`] = `
+Object {
+  "type": "INSUFFICIENT_BALANCE",
+}
+`;
+
+exports[`action creators creates a postTransaction action 1`] = `[Function]`;
+
+exports[`action creators creates a updateBalance action 1`] = `
+Object {
+  "balance": undefined,
+  "transaction": Object {
+    "desc": undefined,
+  },
+  "type": "UPDATE_BALANCE",
+}
+`;

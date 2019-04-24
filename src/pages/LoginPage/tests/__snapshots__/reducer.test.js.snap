@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer initial state has an initial state 1`] = `
+Immutable.Map {
+  "loggedIn": false,
+  "loginError": false,
+}
+`;
+
+exports[`reducer state after reducer changes state after loginFailure is called 1`] = `
+Immutable.Map {
+  "loggedIn": false,
+  "loginError": true,
+}
+`;
+
+exports[`reducer state after reducer changes state after loginSuccess is called 1`] = `
+Immutable.Map {
+  "loggedIn": true,
+  "loginError": false,
+}
+`;
+
+exports[`reducer state after reducer changes state after logout is called 1`] = `
+Immutable.Map {
+  "loggedIn": false,
+}
+`;
